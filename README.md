@@ -6,8 +6,11 @@ https://algospot.com/judge/problem/read/JOSEPHUS
 Linked List를 이용한다.
 ```
  i)   Linked List에 1 ~ N 까지 저장한다.
+ 
  ii)  처음 0번 방을 제거하고 그 후 K-1 만큼 제거해야 하는 방을 가리키는 index를 증가시킨다. ( K-1 만큼 증가시키는 이유는 제거된 방 이후의 방들의 index가 1씩 줄어들기 때문이다. )
+ 
  iii) index를 증가시켰을 때 Linked List의 크기보다 index가 커졌을 때 Linked List의 크기로 모듈러 연산을 취한다.
+ 
  iv)  위의 과정을 Linked List의 크기가 2가 될 때까지 반복한다.
  
   ex) N = 6, K = 3
